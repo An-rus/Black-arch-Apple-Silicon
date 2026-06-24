@@ -59,4 +59,4 @@ Tools: `ffuf`, `wfuzz`, `burpsuite`, `radamsa`
 
 These are not errors — just packages unavailable on aarch64:
 - `metasploit`, `wine`, `mingw-w64-gcc`, `responder`
-![Image of tool installation](screenshots/tool-install.png)
+![Image of tool installation](screenshots/tools-install.png)
