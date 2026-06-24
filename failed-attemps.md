@@ -23,6 +23,7 @@
 ip link set dev enp0s1 up
 dhcpcd enp0s1
 ```
+![Image of errors in archboot](screenshots/
 
 **Root cause:** UTM on M2 has known bugs with VirtIO network initialization in the installer environment.
 
