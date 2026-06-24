@@ -52,5 +52,6 @@ dhcpcd enp0s1
 ## ✅ Solution — OrbStack
 
 Switched to OrbStack. Network works automatically, Arch available natively.
+![image of BlackArch installing](screenshots/Blackarch.png)
 
 See [orbstack-setup.md](./orbstack-setup.md)
