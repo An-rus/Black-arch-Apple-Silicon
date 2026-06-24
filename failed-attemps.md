@@ -23,7 +23,7 @@
 ip link set dev enp0s1 up
 dhcpcd enp0s1
 ```
-![Image of errors in archboot](screenshots/
+![Image of errors in archboot](screenshots/archboot.png)
 
 **Root cause:** UTM on M2 has known bugs with VirtIO network initialization in the installer environment.
 
@@ -34,6 +34,7 @@ dhcpcd enp0s1
 **What we tried:** Install Debian first, then bootstrap Arch from it.
 
 **What happened:** Same DHCP failure as Attempt 2.
+![Image of debian](screenshots/debian.png) 
 
 **Root cause:** The issue was UTM's network layer, not the distro.
 
@@ -44,6 +45,7 @@ dhcpcd enp0s1
 **What we tried:** Pre-built images from UTM's gallery.
 
 **What happened:** Same network issues or too locked-down for BlackArch repo.
+![Image of Gallery images](screenshots/arch-from-utm.png)
 
 ---
 
